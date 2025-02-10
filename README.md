@@ -35,6 +35,7 @@ Before running the script, ensure you have Python and Nodejs installed on your m
 
 # NstProxy - https://app.nstproxy.com/register?i=SkKXHm
 
+![image](https://github.com/user-attachments/assets/702bf4b1-9dfe-4b90-8f97-478dfdfa7225)
 
 ## FOR ANY KIND OF HELP CONTACT : ` 0xphatom ` on Discord  https://discord.com/users/979641024215416842
 
