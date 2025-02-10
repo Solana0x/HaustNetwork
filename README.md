@@ -1,4 +1,4 @@
-# HaustNetwork
+# HaustNetwork #Mint 2
 
 Automated NFT Minitng with Nodejs bot, managing multiple EVM Wallet accounts to safely claim faucet and Mint the NFTs. Perfect for those having multiple Accounts.
 
@@ -23,7 +23,8 @@ Before running the script, ensure you have Python and Nodejs installed on your m
 6. Generate Private keys `keygen.py` in line `19` base on the choice you can write how many private keys you wanted to generated. // By default value is 1000.
 7. To run python file run `python keygen.py`
 8. Add the wallet address in the `address.txt file` in order to claim faucet command by `node index.js`
-9. Once all wallets are processed run `mint.js file` in order to mint the NFT command `node mint.js`
+9. Once all wallets are processed run `mint.js file` in order to mint the NFT command `node mint.js`.
+10. While running `mint.js` file you can choose which NFT you wanted to mint !
 
 ## Requirements
 
