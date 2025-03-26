@@ -29,7 +29,7 @@ def main():
     with Pool(n_processes) as pool:
         results = pool.starmap(generate_chunk, tasks)
     print("Generation complete. Writing to files...")
-    with open("keys.txt", "w") as priv_file, open("address.txt", "w") as pub_file:
+    with open("key.txt", "w") as priv_file, open("address.txt", "w") as pub_file:
         for (priv_keys_chunk, addrs_chunk) in results:
             for pk, addr in zip(priv_keys_chunk, addrs_chunk):
                 priv_file.write(f"{pk}\n")
