@@ -1,11 +1,13 @@
-# HaustNetwork
+# HaustNetwork #Mint V2 BOT
 
 使用 Node.js 机器人实现自动化 NFT 铸造，管理多个 EVM 钱包账户，以安全地领取水龙头（faucet）并铸造 NFT。适合拥有多个账户的用户。
 
-![image](https://github.com/user-attachments/assets/4b1c0761-24c4-44a9-8fb7-de2ad3e6b546)
+![image](https://github.com/user-attachments/assets/d13b94e5-bf60-4e0c-b2b3-4caac0319c03)
+
 
 ## 功能特点
 
+- 使用 Solvecaptcha API 领取水龙头
 - 使用代理服务器领取水龙头 #Safu
 - 支持多线程，提高 NFT 铸造速度
 - 兼容多个钱包及私钥
@@ -23,8 +25,7 @@
 6. 生成私钥：在 `keygen.py` 文件的第 `19` 行，根据需求设置要生成的私钥数量（默认值为 1000）。
 7. 运行以下命令生成私钥：
    ```python keygen.py```
-8. 在 `address.txt` 文件中添加钱包地址，然后运行以下命令领取水龙头：
-   ```node index.js```
+8. 在 `address.txt file` 中添加钱包地址，以便通过 `node index.js` 领取 faucet 命令。在第 4 行添加 Captcha API```const API_KEY = 'Solve_Captcha_API_KEY';```
 9. 所有钱包处理完成后，运行 `mint.js` 文件铸造 NFT：
    ```node mint.js```
 
@@ -38,6 +39,7 @@
 ### 推荐代理服务商
 
 - **NstProxy** - [注册链接](https://app.nstproxy.com/register?i=SkKXHm)
+- 解决验证码 API - [https://solvecaptcha.com?from=479148](https://solvecaptcha.com?from=479148)
 
 ## 需要帮助？
 
