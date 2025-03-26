@@ -33,9 +33,11 @@ Before running the script, ensure you have Python and Nodejs installed on your m
 - Node js ( install Nodejs By - https://nodejs.org/en/download / [windows/mac]) 
 - VPS Server ! You can get Via AWS free Tier or Google Free tier or Gitpod or any online for just ~ 2-5$ per month
 - Proxy Server - you can buy DataCenter Proxies to Earn Account Generate
-- Solve captcha APIs - [https://solvecaptcha.com?from=479148](https://solvecaptcha.com?from=479148)
+
 
 # NstProxy - https://app.nstproxy.com/register?i=SkKXHm
+# Solve captcha APIs - [https://solvecaptcha.com?from=479148](https://solvecaptcha.com?from=479148)
+
 
 ## FOR ANY KIND OF HELP CONTACT : ` 0xphatom ` on Discord  https://discord.com/users/979641024215416842
 
